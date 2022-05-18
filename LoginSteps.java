@@ -76,7 +76,7 @@ public class LoginSteps{
 		} catch (InterruptedException e) {}
 	}
 
-	@When("click on leave tab")
+	@When("click on leave tabs")
 	public void click_on_leave_tab() {
 		homePage.clickOnLeaveTab();
 		leavePage.clickOnLeaveListTab();
